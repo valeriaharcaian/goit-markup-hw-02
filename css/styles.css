@@ -24,3 +24,7 @@
   color: #4d5ae5;
   text-decoration: none;
 }
+
+.footer {
+  background-color: var(--logo-titles-color);
+}
