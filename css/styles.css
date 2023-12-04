@@ -10,6 +10,6 @@
 /*Setting up the font for the entire page*/
 .body {
   font-family: "Roboto", sans-serif;
-  color: var(--adress-text-color);
+  color: #434455;
   background-color: var(--background-page-color);
 }
