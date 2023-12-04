@@ -8,13 +8,6 @@
   --brand-color-iris: ##4d5ae5;
 }
 
-/*Setting up the font for entire page*/
-.body {
-  font-family: "Roboto", sans-serif;
-  color: var(--adress-text-color);
-  background-color: var(--background-page-color);
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
