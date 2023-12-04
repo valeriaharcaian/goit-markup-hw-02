@@ -5,6 +5,7 @@
   --logo-titles-color: #2e2f42;
   --background-page-color: #fff;
   --adress-text-color: #434455;
+  --brand-color-ocean: #404bbf;
 }
 
 /*Setting up the font for the entire page*/
@@ -36,6 +37,14 @@
   letter-spacing: 0.02em;
   color: var(--text-site-color);
   text-decoration: none;
+}
+
+.list-link link {
+  text-decoration: none;
+}
+.list-link link : :hover
+.list-link link : :focus {
+  color: var(#404bbf);
 }
 
 .footer {
