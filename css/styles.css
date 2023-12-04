@@ -39,11 +39,12 @@
   color: var(--text-site-color);
 }
 
-.list-link :hover {
+.list-link :hover,
+.list-link :focus {
   color: #404bbf;
 }
 
-.list-link :focus {
+ {
   color: #404bbf;
 }
 
@@ -58,6 +59,18 @@
 
 .list-link link {
   text-decoration: none;
+}
+
+/*adress section*/
+.contacts {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE);
+}
+
+.contact-link :hover,
+.contact-link :focus {
+  color: #404bbf;
 }
 
 .footer {
