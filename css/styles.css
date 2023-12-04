@@ -6,6 +6,15 @@
   --background-page-color: #fff;
   --adress-text-color: #434455;
   --brand-color-ocean: #404bbf;
+  --SLATE: #434455;
+  --OCEAN: #404bbf;
+  --IRIS: #4d5ae5;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE: #2e2f42;
+  --WHITE: #ffffffff;
+  --CORNFLOEWR: #e7e9fc;
+  --text-font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
 }
 
 /*Setting up the font for the entire page*/
@@ -30,8 +39,12 @@
   color: var(--text-site-color);
 }
 
-.list-link :hover .list-link :focus {
-  color: var(#404bbf);
+.list-link :hover {
+  color: #404bbf;
+}
+
+.list-link :focus {
+  color: #404bbf;
 }
 
 .list-link {
