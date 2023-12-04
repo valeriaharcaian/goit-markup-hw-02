@@ -1,0 +1,17 @@
+:root {
+  --logo-blue-color: #4d5ae5;
+  --logo-buttons-sectionfour-index-background: #e7e9fc;
+  --text-site-color: #2e2f42;
+  --logo-titles-color: #2e2f42;
+  --background-page-color: #fff;
+  --adress-text-color: #434455;
+}
+
+/*Setting up the font for entire page*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--adress-text-color);
+  background-color: var(--background-page-color);
+}
+
+/*Clasess*/
