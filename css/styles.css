@@ -6,3 +6,9 @@
   --background-page-color: #fff;
   --adress-text-color: #434455;
 }
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--background-page-color);
+}
