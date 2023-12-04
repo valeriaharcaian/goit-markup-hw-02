@@ -6,13 +6,6 @@
   --background-page-color: #fff;
   --adress-text-color: #434455;
   --brand-color-ocean: #404bbf;
-  --SLATE: #434455;
-  --OCEAN: #404bbf;
-  --IRIS: #4d5ae5;
-  --CLOUD: #f4f4fd;
-  --NAVY-BLUE: #2e2f42;
-  --WHITE: #ffffffff;
-  --CORNFLOEWR: #e7e9fc;
   --text-font-family: "Roboto", sans-serif;
   --logo-font-family: "Raleway", sans-serif;
 }
@@ -41,10 +34,6 @@
 
 .list-link :hover,
 .list-link :focus {
-  color: var(--OCEAN);
-}
-
- {
   color: #404bbf;
 }
 
@@ -70,7 +59,7 @@
 
 .contact-link :hover,
 .contact-link :focus {
-  color: var(--OCEAN);
+  color: #404bbf;
 }
 
 .footer {
