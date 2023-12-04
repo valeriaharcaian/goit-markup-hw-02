@@ -7,8 +7,9 @@
   --adress-text-color: #434455;
 }
 
+/*Setting up the font for the entire page*/
 .body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--adress-text-color);
   background-color: var(--background-page-color);
 }
