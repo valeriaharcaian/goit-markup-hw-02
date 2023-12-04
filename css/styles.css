@@ -74,7 +74,7 @@
   background-color: var(--logo-titles-color);
 }
 
-.title {
+.hero-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -95,14 +95,14 @@
 
 /*section 2*/
 
-.strategy {
+.title-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.strategy-paragraph {
+.index {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -121,5 +121,5 @@
 /*section 4*/
 
 .our-team {
-  background-color: #f4f4fd;
+  background-color: y;
 }
