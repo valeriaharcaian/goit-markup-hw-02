@@ -41,7 +41,7 @@
 
 .list-link :hover,
 .list-link :focus {
-  color: #404bbf;
+  color: var(--OCEAN);
 }
 
  {
@@ -70,7 +70,7 @@
 
 .contact-link :hover,
 .contact-link :focus {
-  color: #404bbf;
+  color: var(--OCEAN);
 }
 
 .footer {
