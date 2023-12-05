@@ -44,15 +44,15 @@
   color: var(--adress-text-color);
 }
 
-.list-link link {
+.list-link {
   color: var(--logo-titles-color);
   text-decoration: none;
 }
 
-.list-link link:hover {
+.list-link:hover {
   color: #404bbf;
 }
-.list-link link:focus {
+.list-link:focus {
   color: #404bbf;
 }
 
