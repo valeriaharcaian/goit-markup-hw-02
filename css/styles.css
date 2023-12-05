@@ -48,9 +48,10 @@
   text-decoration: none;
 }
 
-.list-link link :hover,
-.list-link link :focus {
-  color: #404bbf;
+.list-link link:hover,
+.list-link link:focus {
+  background-color: #404bbf;
+  color: #fff;
 }
 
 /*adress section*/
@@ -124,4 +125,29 @@
 
 .our-team {
   background-color: y;
+}
+
+/*portfolio main section*/
+
+/*buttons*/
+
+.button-list {
+  list-style: none;
+}
+
+.navi-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-blue-color);
+  background-color: var(--light-color);
+  cursor: pointer;
+}
+
+.navi-menu:hover,
+.navi-menu:focus {
+  color: #fff;
+  background-color: #404bbf;
 }
