@@ -12,14 +12,12 @@
   --logo-font-family: "Raleway", sans-serif;
 }
 
-/*Setting up the font for the entire page*/
-
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-page-color);
 }
-/*Navigation*/
+/*Nav section - Contact-Adress */
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -60,6 +58,7 @@
 }
 
 /*adress section*/
+
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -74,11 +73,9 @@
   background-color: #434455;
 }
 
-.footer {
-  background-color: var(--logo-titles-color);
-}
+/*MAIN SECTION -index html\\\*/
 
-/*Main section index html*/
+/*Hero section*/
 
 .hero {
   background-color: var(--logo-titles-color);
@@ -91,6 +88,8 @@
   letter-spacing: 0.02em;
   color: #fff;
 }
+
+/*Button - first section*/
 
 .button {
   background-color: #4d5ae5;
@@ -148,8 +147,8 @@
   color: var(--logo-titles-color);
 }
 
-.name {
-  background-color: #fff;
+.list {
+  list-style: none;
 }
 
 .team4 {
@@ -184,4 +183,5 @@
 /*footer*/
 
 .footer {
+  background-color: var(--logo-titles-color);
 }
