@@ -50,7 +50,7 @@
 }
 
 .list-link link:hover {
-    #404bbf
+  color: #404bbf;
 }
 .list-link link:focus {
   color: #404bbf;
