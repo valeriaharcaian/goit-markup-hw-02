@@ -45,13 +45,15 @@
 }
 
 .list-link link {
+  color: var(--logo-titles-color);
   text-decoration: none;
 }
 
-.list-link link:hover,
+.list-link link:hover {
+    #404bbf
+}
 .list-link link:focus {
-  background-color: #404bbf;
-  color: #fff;
+  color: #404bbf;
 }
 
 /*adress section*/
