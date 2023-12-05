@@ -152,6 +152,10 @@
   background-color: #fff;
 }
 
+.team4 {
+  background-color: #fff;
+}
+
 /*portfolio main section*/
 
 /*buttons*/
@@ -175,4 +179,9 @@
 .navi-menu:focus {
   color: #fff;
   background-color: #404bbf;
+}
+
+/*footer*/
+
+.footer {
 }
