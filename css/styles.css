@@ -67,10 +67,11 @@
   text-decoration: none;
 }
 
-.contact-link :hover,
-.contact-link :focus {
+.contact-link:hover {
   color: #434455;
-  background-color: #434455;
+}
+.contact-link:focus {
+  color: #434455;
 }
 
 /*MAIN SECTION -index html\\\*/
