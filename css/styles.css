@@ -1,7 +1,6 @@
 :root {
   --logo-blue-color: #4d5ae5;
   --logo-buttons-sectionfour-index-background: #e7e9fc;
-  --text-site-color: #2e2f42;
   --logo-titles-color: #2e2f42;
   --background-page-color: #fff;
   --adress-text-color: #434455;
@@ -26,12 +25,16 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-blue-color);
   text-decoration: none;
 }
 
 .span-class {
-  color: var(--text-site-color);
+  color: var(--logo-titles-color);
+}
+
+.list {
+  list-style: none;
 }
 
 .list-link {
@@ -39,14 +42,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--adress-text-color);
-}
-
-.list-link {
   color: var(--logo-titles-color);
-  text-decoration: none;
-}
-.list-link link {
   text-decoration: none;
 }
 
@@ -58,6 +54,10 @@
 }
 
 /*adress section*/
+
+.contact {
+  font-style: normal;
+}
 
 .contact-link {
   font-size: 16px;
@@ -145,14 +145,6 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--logo-titles-color);
-}
-
-.list {
-  list-style: none;
-}
-
-.team4 {
-  background-color: #fff;
 }
 
 /*footer section*/
