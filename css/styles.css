@@ -157,7 +157,7 @@
   letter-spacing: 0.03em;
   color: var(--logo-blue-color);
   background-color: var(--logo-titles-color);
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .index {
