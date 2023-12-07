@@ -142,13 +142,12 @@
   background-color: #f4f4fd;
 }
 
-.title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--logo-titles-color);
+.team-list {
+  list-style: none;
+}
+
+.team4 {
+  background-color: #fff;
 }
 
 /*footer section*/
@@ -159,8 +158,12 @@
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--logo-blue-color);
+  background-color: var(--logo-titles-color);
+}
+
+.index {
+  color: var(--light-color);
 }
 
 .span-class-f {
