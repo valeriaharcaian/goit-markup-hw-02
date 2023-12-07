@@ -182,7 +182,7 @@
 /*PORTFOLIO main section*/
 
 /*buttons section*/
-.list-buttons {
+.list {
   list-style: none;
 }
 
@@ -197,11 +197,16 @@
   cursor: pointer;
 }
 
-.navi-menu:hover,
-.navi-menu:focus {
-  color: #404bbf;
+.navi-menu:hover {
+  color: #fff;
   background-color: #404bbf;
 }
+
+.navi-menu:focus {
+  color: #fff;
+  background-color: #404bbf;
+}
+
 .list {
   list-style: none;
 }
