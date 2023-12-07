@@ -67,9 +67,7 @@
   text-decoration: none;
 }
 
-.contact-link:hover {
-  color: #434455;
-}
+.contact-link:hover,
 .contact-link:focus {
   color: #434455;
 }
