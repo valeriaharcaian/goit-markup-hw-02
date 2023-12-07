@@ -181,4 +181,46 @@
 
 /*PORTFOLIO main section*/
 
-/*buttons*/
+/*buttons section*/
+.list-buttons {
+  list-style: none;
+}
+
+.navi-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-blue-color);
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.navi-menu:hover,
+.navi-menu:focus {
+  color: #404bbf;
+  background-color: #404bbf;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.portfolio-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--logo-titles-color);
+}
+
+.p-pharagraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--adress-text-color);
+}
