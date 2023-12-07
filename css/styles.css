@@ -1,6 +1,5 @@
 :root {
   --logo-blue-color: #4d5ae5;
-  --logo-buttons-sectionfour-index-background: #e7e9fc;
   --logo-titles-color: #2e2f42;
   --background-page-color: #fff;
   --adress-text-color: #434455;
@@ -33,6 +32,10 @@
   color: var(--logo-titles-color);
 }
 
+.link {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
@@ -57,11 +60,13 @@
 
 .contact {
   font-style: normal;
+  list-style-type: none;
 }
 
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--adress-text-color);
   text-decoration: none;
@@ -69,7 +74,7 @@
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #434455;
+  color: #404bbf;
 }
 
 /*MAIN SECTION -index html\\\*/
